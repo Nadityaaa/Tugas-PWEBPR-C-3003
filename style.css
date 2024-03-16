@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    src: url(); 
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.bar-menu{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: #D9D9D9;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    margin: 10px 10px 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+}
+.text-textbox{
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    text-justify: center;
+}
+.tentara-box{
+    background-color: #D5FFDD;
+    border-radius:  20px;
+}
+.petani-box{
+    background-color: #FFF4DC;
+    border-radius: 20px;
+}
+.pramugari-box{
+    background-color: #FFCED7;
+    border-radius: 20px;
+}
+.fotografer-box{
+    background-color: #E2F2FF;
+    border-radius: 20px;
+}
+.grey-box1{
+    width: 100%;
+    height: auto;
+}
+.dokter-box{
+    background-color: #E9E8E2;
+    border-radius: 20px;
+}
+.pilot-box{
+    background-color: #E9E8E2;
+    border-radius: 20px;
+}
+.ilmuan-box{
+    background-color: #E9E8E2;
+    border-radius: 20px;
+}
+.pembalap-box{
+    background-color: #FFDBC5;
+    border-radius: 20px;
+}
+.astronot-box{
+    background-color: #8FC5ED;
+    border-radius: 20px;
+}
+@media(min-width: 425px){
+    .bar-menu{
+        z-index: 10;
+    }
+    .tentara-box{
+        width: 289px;
+        height: 299px;
+    }
+    .tentara-pic{
+        width: 230px;
+        height: 230px;
+        margin-top: -48px;
+        margin-left: 30px
+    }
+    .tentara-title{
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 35px;
+        text-align: center;
+    }
+    .tentara-desc{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .tentara-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #399349;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 100px;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .petani-box{
+        width: 288.53px;
+        height: 221px;
+    }
+    .petani-pic{
+        width: 213.2px;
+        height: 208.72px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .petani-boxtext{
+        width: 173px;
+        height: 37px;
+        background-color: #E29A00;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 40px;
+        margin-top: -150px;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .pramugari-box{
+        width: 289px;
+        height: 239.85px;
+    }
+    .pramugari-pic{
+        width: 209.06px;
+        height: 226.53px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    .pramugari-boxtext{
+        width: 212.75px;
+        height: 49.03px;
+        background-color: #FF5573;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 38.12px;
+        font-size: 20px;
+        bottom: 75px;
+    }
+    .fotografer-box{
+        width: 289px;
+        height: 314px;
+        margin-top: 95px;
+    }
+    .fotografer-pic{
+        width: 230px;
+        height: 230px;
+        margin: 32px;
+        margin-top: -35px;
+    }
+    .fotografer-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: -10px;
+        text-align: center;
+    }
+    .fotografer-desc{
+        font-size: 12px;
+        font-weight: 500;
+        margin: 13px 70px 0px 70px;
+        text-align: center;
+    }
+    .fotografer-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #3279AF;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        position: relative;
+        font-size: 20px;
+        bottom: 120px;
+        margin-left: 39px;
+    }
+    .dokter-box{
+        width: 288.53px;
+        height: 221px;
+    }
+    .dokter-pic{
+        width: 213px;
+        height: 213px;
+        margin-top: 10px;
+        margin-left: 38px;
+    }
+    .dokter-title{
+        font-size: 0px;
+        font-weight: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .dokter-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #CAC8B3;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 9px;
+        font-size: 20px;
+        bottom: 70px;
+        margin-left: 38.06px;
+    }
+    .pilot-box{
+        width: 288.53px;
+        height: 221px;
+    }
+    .pilot-pic{
+        width: 213px;
+        height: 213px;
+        margin-top: 10px;
+        margin-left: 38px;
+    }
+    .pilot-title{
+        font-size: 0px;
+        font-weight: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .pilot-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #CAC8B3;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 9px;
+        font-size: 20px;
+        bottom: 70px;
+        margin-left: 38.06px;
+    }
+    .ilmuan-box{
+        width: 288.53px;
+        height: 221px;
+    }
+    .ilmuan-pic{
+        width: 213px;
+        height: 213px;
+        margin-top: 10px;
+        margin-left: 38px;
+    }
+    .ilmuan-title{
+        font-size: 0px;
+        font-weight: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .ilmuan-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #CAC8B3;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 9px;
+        font-size: 20px;
+        bottom: 70px;
+        margin-left: 38.06px;
+    }
+    .pembalap-box{
+        width: 288.53px;
+        height: 221px;
+    }
+    .pembalap-pic{
+        width: 213px;
+        height: 213px;
+        margin-top: 10px;
+        margin-left: 38px;
+    }
+    .pembalap-title{
+        font-size: 0px;
+        font-weight: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .pembalap-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #E36415;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 9px;
+        font-size: 20px;
+        bottom: 70px;
+        margin-left: 38.06px;
+    }
+    .astronot-box{
+        width: 288.53px;
+        height: 221px;
+    }
+    .astronot-pic{
+        width: 213px;
+        height: 213px;
+        margin-top: 10px;
+        margin-left: 38px;
+    }
+    .astronot-title{
+        font-size: 0px;
+        font-weight: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .astronot-boxtext{
+        width: 212.41px;
+        height: 45.43px;
+        background-color: #275E87;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 9px;
+        font-size: 20px;
+        bottom: 70px;
+        margin-left: 38.06px;
+    }
+}
+@media(min-width: 1280px){
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+    }
+    .heading{
+        margin-top: 83px;
+        margin-bottom: 0px;
+    }
+    .bar-menu{
+        position: fixed;
+        top: 0px;
+    }
+    .tentara-box{
+        display: flex;
+        width: 490px;
+        height: 180px;
+        background-color: #D5FFDD;
+        border-radius:  20px;
+    }
+    .tentara-pic{
+        width: 230px;
+        height: 230px;
+        margin-top: -48px;
+        margin-left: -5px;
+    }
+    .tentara-title{
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-left: -10px;
+        text-align: left;
+    }
+    .tentara-desc{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-left: -10px;
+        text-align: left;
+    }
+    .tentara-boxtext{
+        width: 240px;
+        height: 37px;
+        background-color: #399349;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        margin: 35px 34px 0px -10px;
+        font-size: 20px;
+        bottom: 0;
+    }
+    .petani-box{
+        display: flex;
+        width: 235px;
+        height: 180px;
+        background-color: #FFF4DC;
+        border-radius: 20px;
+    }
+    .petani-pic{
+        width: 173.7px;
+        height: 170px;
+        margin: 31px;
+        margin-top: 10px;
+    }
+    .petani-boxtext{
+        width: 173px;
+        height: 37px;
+        background-color: #E29A00;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        margin-top: 130px;
+        margin-left: -205px;
+        font-size: 20px;
+        bottom: 0px;
+    }
+    .pramugari-box{
+        display: flex;
+        width: 235px;
+        height: 180px;
+        background-color: #FFCED7;
+        border-radius: 20px;
+    }
+    .pramugari-pic{
+        width: 170px;
+        height: 170px;
+        margin: 31px;
+        margin-top: 10px;
+    }
+    .pramugari-boxtext{
+        width: 173px;
+        height: 37px;
+        background-color: #FF5573;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        margin-top: 130px;
+        margin-left: -205px;
+        font-size: 20px;
+        bottom: 0px;
+    }
+    .fotografer-box{
+        display: flex;
+        width: 230px;
+        height: 392px;
+        background-color: #E2F2FF;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
+    .fotografer-pic{
+        width: 160px;
+        height: 160px;
+        margin: 35px;
+        margin-top: 36px;
+    }
+    .fotografer-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: -20px;
+        text-align: center;
+    }
+    .fotografer-desc{
+        font-size: 12px;
+        font-weight: 500;
+        margin: 13px 59px 0px 58px;
+        text-align: center;
+    }
+    .fotografer-boxtext{
+        width: 173px;
+        height: 37px;
+        background-color: #3279AF;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 15px;
+        margin: 20px 29px 36px 28px;
+        font-size: 20px;
+        bottom: 0px;
+    }
+    .grey-box1{
+        width: 500px;
+        height: 392px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dokter-box{
+        display: flex;
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+    .dokter-pic{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .dokter-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .dokter-boxtext{
+        width: 149px;
+        height: 22px;
+        background-color: #D8D6C1;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        margin-top: 9px;
+        margin-left: 10px;
+        font-size: 12px;
+        bottom: 0px;
+    }
+    .pilot-box{
+        display: flex;
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+    .pilot-pic{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .pilot-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .pilot-boxtext{
+        width: 149px;
+        height: 22px;
+        background-color: #D8D6C1;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        margin-top: 9px;
+        margin-left: 10px;
+        font-size: 12px;
+        bottom: 0px;
+    }
+    .ilmuan-box{
+        display: flex;
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+    .ilmuan-pic{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .ilmuan-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .ilmuan-boxtext{
+        width: 149px;
+        height: 22px;
+        background-color: #D8D6C1;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        margin-top: 9px;
+        margin-left: 10px;
+        font-size: 12px;
+        bottom: 0px;
+    }
+    .grey-box2{
+        width: 500px;
+        height: 181px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+    .pembalap-box{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+    .pembalap-pic{
+        display: flex;
+        width: 120px;
+        height: 120px;
+        margin: 30px 40px 30px 14px;
+    }
+    .pembalap-title{
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 63px;
+        margin-left: -30px;
+    }
+    .pembalap-boxtext{
+        width: 100px;
+        height: 55px;
+        background-color: #D8D6C1;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        margin-top: 14px;
+        margin-left: -30px;
+        font-size: 15px;
+        bottom: 0px;
+    }
+    .astronot-box{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+    .astronot-pic{
+        display: flex;
+        width: 120px;
+        height: 120px;
+        margin: 30px 20px 30px -10px;
+    }
+    .astronot-title{
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 63px;
+        margin-left: -15px;
+    }
+    .astronot-boxtext{
+        width: 100px;
+        height: 55px;
+        background-color: #D8D6C1;
+        color: #FFFFFF;
+        border-width: 0px;
+        border-radius: 10px;
+        margin-top: 14px;
+        margin-left: -15px;
+        font-size: 15px;
+        bottom: 0px;
+    }
+}
